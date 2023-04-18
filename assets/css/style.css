@@ -150,9 +150,16 @@ a {
 }
 .profile__box {
     background: var(--white-color);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+.profile__box:hover {
+    box-shadow: none;
 }
 .profile__box .image__cover {
     width: 100%;
+    border-radius: 10px 10px 0 0;
 }
 .profile__info {
     padding: 0 25px;
@@ -225,6 +232,12 @@ a {
     background: var(--white-color);
     padding: 5px 25px;
     margin: 12px 0;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+.profile__activity:hover {
+    box-shadow: none;
 }
 .recent, .groups, .hashtag {
     font-size: 13px;
@@ -273,6 +286,12 @@ a {
 .news__container {
     background: var(--white-color);
     padding: 10px 25px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+.news__container:hover {
+    box-shadow: none;
 }
 .info__news {
     font-size: 20px;
@@ -309,6 +328,12 @@ a {
     text-align: center;
     margin: 12px 0;
     font-size: 12px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+.right__ad:hover {
+    box-shadow: none;
 }
 .right__ad small, .right__ad p, .right__ad b, .right__ad a {
     text-transform: capitalize;
