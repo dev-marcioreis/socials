@@ -221,6 +221,44 @@ a {
 .profile__link a .uil-award {
     color: var(--logo-color);
 }
+.profile__activity {
+    background: var(--white-color);
+    padding: 5px 25px;
+    margin: 12px 0;
+}
+.recent, .groups, .hashtag {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--dark-light-color);
+    margin: 20px 0 10px;
+    text-transform: capitalize;
+}
+.profile__activity a {
+    display: flex;
+    align-items: center;
+    font: 12px;
+    font-weight: 400;
+    color: var(--dark-light-color);
+    margin: 3px 0;
+    text-transform: capitalize;
+}
+.profile__activity a i {
+    font-size: 15px;
+    color: var(--logo-color);
+    margin-right: 10px;
+}
+.discover__more {
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+.discover__more a {
+    display: inline-block;
+    color: var(--blue-color);
+    margin: 10px 0;
+}
 
 /*==========Middle==========*/
 .middle__content {
