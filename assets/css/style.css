@@ -270,3 +270,36 @@ a {
     flex-basis: 25%;
     align-self: flex-start;
 }
+.news__container {
+    background: var(--white-color);
+    padding: 10px 25px;
+}
+.info__news {
+    font-size: 20px;
+    float: right;
+    color: var(--blue-color);
+    margin-top: 8px;
+}
+.title__news {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--dark-color);
+    margin: 10px 0 30px;
+}
+.news__container a {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: -3px;
+}
+.news__container span {
+    font-size: 12px;
+}
+.read__more {
+    color: var(--blue-color);
+    font-weight: 500;
+    margin: 20px 0 10px;
+    text-transform: capitalize;
+}
