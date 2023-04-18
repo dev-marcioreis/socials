@@ -25,6 +25,10 @@
     --salmon-color: hsl(23, 100%, 82%);
     --red-color: hsl(347, 100%, 71%);
     --logo-color: hsl(74, 62%, 63%);
+    --dark-color: hsl(0, 0%, 13%);
+    --dark-light-color: hsl(0, 0%, 47%);
+    --blue-color: hsl(217, 97%, 46%);
+    --border-color: hsl(0, 0%, 80%);
     --transparent-color: rgba(0, 0, 0, 0);
     --shadow: 0 5px 10px hsla(0, 0%, 0%, 0.1);
     --transition: all 400ms ease;
@@ -40,7 +44,7 @@ a {
     color: var(--primary-color);
 }
 
-/*==========Navbar==========*/
+/*==========Header==========*/
 .navbar {
     position: sticky;
     top: 0;
@@ -129,4 +133,102 @@ a {
     border: 2px solid var(--white-color);
     border-radius: 50%;
     background: var(--green-color);
+}
+
+/*==========Container==========*/
+.container {
+    padding: 20px 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*==========Left==========*/
+.left__content {
+    flex-basis: 25%;
+    align-self: flex-start;
+}
+.profile__box {
+    background: var(--white-color);
+}
+.profile__box .image__cover {
+    width: 100%;
+}
+.profile__info {
+    padding: 0 25px;
+}
+.profile__info img {
+    width: 80px;
+    border-radius: 50%;
+    background: var(--white-color);
+    padding: 4px;
+    margin-top: -45px;
+}
+.profile__info .profile__name {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--dark-color);
+}
+.profile__info .profile__function {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: var(--dark-light-color);
+}
+.profile__info ul {
+    margin: 20px 0;
+}
+.profile__info ul li {
+    width: 100%;
+    margin: 5px 0;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.profile__info ul li span {
+    float: right;
+    color: var(--blue-color);
+}
+.profile__info ul li span i {
+    color: var(--dark-light-color);
+    margin-left: 5px;
+}
+.profile__link {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--border-color);
+}
+.profile__link a {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    font-size: 14px;
+    text-transform: capitalize;
+    border-left: 1px solid var(--border-color);
+}
+.profile__link a:first-child {
+    border-left: none;
+}
+.profile__link a i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.profile__link a .uil-bookmark-full {
+    color: var(--blue-color);
+}
+.profile__link a .uil-award {
+    color: var(--logo-color);
+}
+
+/*==========Middle==========*/
+.middle__content {
+    flex-basis: 47%;
+}
+
+/*==========Right==========*/
+.right__content {
+    flex-basis: 25%;
+    align-self: flex-start;
 }
