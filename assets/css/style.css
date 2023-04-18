@@ -171,7 +171,7 @@ a {
     color: var(--dark-color);
 }
 .profile__info .profile__function {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     text-transform: capitalize;
     color: var(--dark-light-color);
@@ -182,7 +182,7 @@ a {
 .profile__info ul li {
     width: 100%;
     margin: 5px 0;
-    font-size: 14px;
+    font-size: 13px;
     text-transform: capitalize;
 }
 .profile__info ul li span {
@@ -204,7 +204,7 @@ a {
     align-items: center;
     justify-content: center;
     padding: 15px 0;
-    font-size: 14px;
+    font-size: 13px;
     text-transform: capitalize;
     border-left: 1px solid var(--border-color);
 }
@@ -227,7 +227,7 @@ a {
     margin: 12px 0;
 }
 .recent, .groups, .hashtag {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     color: var(--dark-light-color);
     margin: 20px 0 10px;
@@ -236,7 +236,7 @@ a {
 .profile__activity a {
     display: flex;
     align-items: center;
-    font: 12px;
+    font-size: 13px;
     font-weight: 400;
     color: var(--dark-light-color);
     margin: 3px 0;
@@ -302,4 +302,67 @@ a {
     font-weight: 500;
     margin: 20px 0 10px;
     text-transform: capitalize;
+}
+.right__ad {
+    background: var(--white-color);
+    padding: 15px 25px;
+    text-align: center;
+    margin: 12px 0;
+    font-size: 12px;
+}
+.right__ad small, .right__ad p, .right__ad b, .right__ad a {
+    text-transform: capitalize;
+}
+.right__ad small {
+    float: right;
+    font-weight: 500;
+}
+.right__ad p {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.right__ad b {
+    display: block;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.right__ad img {
+    width: 50px;
+    border-radius: 50%;
+    margin: 4px;
+}
+.ad__link {
+    display: inline-block;
+    border: 1px solid var(--border-color);
+    border-radius: 30px;
+    padding: 5px 15px;
+    color: var(--dark-color);
+    font-weight: 500;
+    margin: 20px auto 10px;
+}
+.useful__content {
+    padding: 15px 25px;
+    text-align: center;
+}
+.useful__content a {
+    display: inline-block;
+    font-size: 13px;
+    margin: 7px 5px;
+    text-transform: capitalize;
+}
+.copy__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.copy__info img {
+    width: 30px;
+    margin-right: 5px;
+}
+.copy__info p {
+    font-size: 13px;
+    font-weight: 300;
 }
