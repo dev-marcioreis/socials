@@ -47,8 +47,10 @@ a {
 
 /*==========Header==========*/
 .navbar {
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     background: var(--white-color);
     padding: 6px 6%;
     box-shadow: var(--shadow);
@@ -146,6 +148,8 @@ a {
 
 /*==========Left==========*/
 .left__content {
+    position: sticky;
+    top: 73px;
     flex-basis: 25%;
     align-self: flex-start;
 }
@@ -276,6 +280,7 @@ a {
 
 /*==========Middle==========*/
 .middle__content {
+    margin-block-start: 53px;
     flex-basis: 47%;
 }
 .create__post {
@@ -439,6 +444,8 @@ a {
 
 /*==========Right==========*/
 .right__content {
+    position: sticky;
+    top: 73px;
     flex-basis: 25%;
     align-self: flex-start;
 }
