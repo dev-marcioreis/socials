@@ -633,6 +633,20 @@ a {
     .navbar__center .navbar__list .navbar__item .navbar__link::after {
         display: none;
     }
+    .left__content {
+        position: relative;
+        top: 50px;
+        flex-basis: 100%;
+    }
+    .middle__content {
+        margin-block-start: 100px;
+        flex-basis: 100%;
+    }
+    .right__content {
+        position: relative;
+        top: 50px;
+        flex-basis: 100%;
+    }
 
 }
 
