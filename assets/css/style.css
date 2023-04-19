@@ -308,13 +308,15 @@ a {
     align-items: center;
     justify-content: center;
     flex-basis: 25%;
-    border-top: 1px solid var(--border-color);
-    border-right: 1px solid var(--border-color);
     height: 40px;
     font-size: 13px;
     text-transform: capitalize;
     font-weight: 500;
     cursor: pointer;
+    transition: var(--transition);
+}
+.post__links li:hover  {
+    background: hsla(0, 0%, 80%, 0.322);
 }
 .post__links li:last-child {
     background: var(--logo-color);
@@ -326,6 +328,7 @@ a {
     font-size: 14px;
     color: var(--logo-color);
     margin-right: 5px;
+    transition: var(--transition);
 }
 .sort__by {
     display: flex;
