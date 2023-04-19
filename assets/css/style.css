@@ -620,3 +620,26 @@ a {
     font-size: 13px;
     font-weight: 300;
 }
+
+/*==========Media Query==========*/
+@media (max-width: 1024px) {
+    .navbar__link span {
+        display: none;
+    }
+    .navbar__center .navbar__list .navbar__item .navbar__link i {
+        font-size: 22px;
+        margin-right: 10px;
+    }
+    .navbar__center .navbar__list .navbar__item .navbar__link::after {
+        display: none;
+    }
+
+}
+
+/*==========Media Query==========*/
+@media (max-width: 768px) {
+    .search__box {
+        display: none;
+    }
+
+}
