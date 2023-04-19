@@ -639,12 +639,21 @@ a {
         flex-basis: 100%;
     }
     .middle__content {
-        margin-block-start: 100px;
+        margin-block-start: 60px;
         flex-basis: 100%;
+    }
+    .post__stats div i {
+        display: none;
+    }
+    .post__stats div span {
+        display: none;
+    }
+    .activity__post span {
+        display: none;
     }
     .right__content {
         position: relative;
-        top: 50px;
+        top: 10px;
         flex-basis: 100%;
     }
 
@@ -654,6 +663,10 @@ a {
 @media (max-width: 768px) {
     .search__box {
         display: none;
+    }
+    .navbar__center .navbar__list .navbar__item .navbar__link i {
+        font-size: 20px;
+        margin-right: 2px;
     }
 
 }
