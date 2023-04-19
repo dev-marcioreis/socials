@@ -137,6 +137,70 @@ a {
     border-radius: 50%;
     background: var(--green-color);
 }
+.menu__wrap {
+    position: absolute;
+    top: 100%;
+    right: 5.3%;
+    width: 355px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s;
+}
+.menu__wrap.active__menu {
+    max-height: 400px;
+}
+.profile__menu {
+    background: var(--dark-color);
+    color: var(--white-color);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+.user__info {
+    display: flex;
+    align-items: center;
+}
+.user__info img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.user__info h3 {
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 3px;
+}
+.user__info a {
+    color: var(--logo-color);
+    font-size: 13px;
+    text-transform: capitalize;
+    border: 1px solid var(--logo-color);
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+.profile__menu hr {
+    height: 1px;
+    width: 100%;
+    background: var(--logo-color);
+    margin: 15px 0 10px;
+}
+.profile__link-menu {
+    display: flex;
+    align-items: center;
+    color: var(--white-color);
+    margin: 25px 0 10px;
+    font-size: 14px;
+}
+.profile__link-menu p {
+    width: 100%;
+    text-transform: capitalize;
+}
+.profile__link-menu i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: var(--logo-color);
+}
 
 /*==========Container==========*/
 .container {
@@ -342,7 +406,6 @@ a {
 }
 .sort__by hr {
     flex: 1;
-    border: none;
     height: 1px;
     background: var(--border-color);
 }
