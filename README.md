@@ -4,7 +4,7 @@
 
 Este projeto é uma rede social baseado no Linkedin.
 
-## 🚀 Começando...
+## 🚀 Finalizado!
 
 ## 📋 Técnologias
 HTML + CSS + JavaScript
