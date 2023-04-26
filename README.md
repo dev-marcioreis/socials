@@ -6,7 +6,7 @@ Este projeto é uma rede social baseado no Linkedin.
 
 ## 🚀 Finalizado!
 
-## 📋 Técnologias
+## 📋 Tecnologias
 HTML + CSS + JavaScript
 
 ## ✒️ Autor
